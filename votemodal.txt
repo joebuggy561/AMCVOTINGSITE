@@ -1,0 +1,1000 @@
+<div class="modal-body">
+                <h5 class="modal-header"><img src="src/images/megaphone.png" alt="...">Award for Advertising Practitioners</h5>
+                <h6>Most influential Person/Woman in Advertising and marketing communication</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-influential-Benevolence" name="vote-influent" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Benevolence Treasures</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-influential-Speed" name="vote-influent" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Speed</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-influential-DonT" name="vote-influent" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">DonT Rocktoff</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-influential-Goldmender" name="vote-influent" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Goldmender media</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-influential-J26" name="vote-influent" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">J26 media</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-influential-Real" name="vote-influent" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Real Print media</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-influential-Gi" name="vote-influent" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Gi media</label>
+                        </li>
+                    </ol>
+                </form>
+              </div>
+              <div class="modal-body">
+                <h6>Advertising and marketing communication educator of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-advertising-prof" name="vote-advert" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Prof. Kehinde Kadiri</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-advertising-ozone" name="vote-advert" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Mr Ozone 02 Academy</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-advertising-bigfield" name="vote-advert" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Bigfield Digital academy</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-advertising-ilesanmi" name="vote-advert" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Dr Ilesanmi</label>
+                        </li>
+                    </ol>
+                </form>
+              </div>
+              <div class="modal-body">
+                <h6>PR Agency / Personality of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-pr-Kijani" name="vote-public" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Kijani</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-pr-house" name="vote-public" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">House of innova</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-pr-zlo" name="vote-public" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">KingZlo Odita Oluwatosin</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-pr-sola" name="vote-public" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Solabuzz</label>
+                        </li>
+                    </ol>
+                </form>
+              </div>
+              <div class="modal-body">
+                <h5 class="modal-header"><img src="src/images/megaphone.png" alt="...">OOH Poster categories of the year</h5>
+                <h6>The Rising star(Fastest growing OOH company)</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-rising-olebog" name="vote-rise" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Olebog</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-rising-city" name="vote-rise" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">City Crier</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-rising-pita" name="vote-rise" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Pita media</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-rising-always" name="vote-rise" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Always media</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-rising-timi" name="vote-rise" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Timi Chat</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-rising-fesko" name="vote-rise" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Fesko</label>
+                        </li>
+                    </ol>
+                </form>
+              </div>
+              <div class="modal-body">
+                <h6>Media Buyer of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-buy-Aderemilekun" name="vote-buyer" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Mr Aderemilekun</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-buy-osas" name="vote-buyer" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Mr Osas</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-buy-ezra" name="vote-buyer" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Mr Asiwaju Ezra</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-buy-olarewaju" name="vote-buyer" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Mr Ola Olarewaju</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-buy-alade" name="vote-buyer" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Mr Charles Alade</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-buy-queen" name="vote-buyer" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Queens media</label>
+                        </li>
+                    </ol>
+                </form>
+              </div>
+              <div class="modal-body">
+                <h6>Print press for OOH of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-print-truce" name="vote-printer" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Truce print</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-print-Kintz" name="vote-printer" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Kintz</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-print-Triumph" name="vote-printer" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Triumph</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-print-speed" name="vote-printer" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Speed</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-print-olebog" name="vote-printer" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Olebog</label>
+                        </li>
+                    </ol>
+                </form>
+              </div>
+              <div class="modal-body">
+                <h6>Copywriter/ Creative Designer of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-copywriter-tolulope" name="vote-copy" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Tolulope</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-copywriter-cyril" name="vote-copy" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Mr. Cyril (define for influence)</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-copywriter-femogrin" name="vote-copy" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Femogrin</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-copywriter-nas" name="vote-copy" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Nas 876Y Publicis</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-copywriter-babatunde" name="vote-copy" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Babatude Adereti</label>
+                        </li>
+                    </ol>
+                </form>
+              </div>
+              <div class="modal-body">
+                <h6>Billboard Installer of the year(Field worker)</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-bill-pato" name="vote-billboard" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Pato</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-bill-ugo" name="vote-billboard" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Ugo Amaechi</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-bill-afeez" name="vote-billboard" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Adesina afeez</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-bill-rafiu" name="vote-billboard" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Rafiu Akindunjoye</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-bill-owonikoko" name="vote-billboard" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Taiwo Owoniko</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-bill-ogunjobi" name="vote-billboard" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Lekan Ogunjobi</label>
+                        </li>
+                    </ol>
+                </form>
+              </div>
+              <div class="modal-body">
+                <h6>Oldest&Functioning OOH structure</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-ooh-afro" name="vote-oohstru" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Afro media; opp. Highcourt Ringroad</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-ooh-max" name="vote-oohstru" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Max media @Dugbe</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-ooh-benevolence" name="vote-oohstru" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Benevolence treasures; gantry at mobil</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-ooh-townplanning" name="vote-oohstru" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Max choice; @ town planning</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-ooh-rocktof" name="vote-oohstru" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Rocktof @Aleshinloye</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-ooh-abercan" name="vote-oohstru" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Abercarn (Elewure Sango)</label>
+                        </li>
+                    </ol>
+                </form>
+              </div>
+              <div class="modal-body">
+                <h6>Most Resourceful Out Personality</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-adejare-resourceful" name="vote-resourceful" value="mr-adejare" class="me-2">
+                            <label for="mr-adejare">Mr Adejare of Remark Media</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-dayo-resourceful" name="vote-resourceful" value="dayo-speed (Capitalsage)" class="me-2">
+                            <label for="mr-dayo">Mr Dayo of Speed Media</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-mr-aderemilekun-resourceful" name="vote-resourceful" value="mr-aderemilekun" class="me-2">
+                            <label for="faith">Mr Aderemilekun of Peegee Media</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-mr-muyiwa-resuorceful" name="vote-resourceful" value="mr-muyiwa" class="me-2">
+                          <label for="faith">Mr Muyiwa of J26</label>
+                        </li>
+                    </ol>
+                </form>
+              </div>
+              <div class="modal-body">
+                <h6>Most Unique&Innovative Billboard of the year.</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-uniqu-plura" name="vote-unique" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Plura media Led @Challenge</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-uniqu-static" name="vote-unique" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Benevolence Static @Adeoyo</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-uniqu-benevolence" name="vote-unique" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Benevolence treasures @aare bodija</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-uniqu-abercarin" name="vote-unique" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Abercarin (Elewure Sango)</label>
+                        </li>
+                    </ol>
+                </form>
+              </div>
+              <div class="modal-body">
+                <h6>Most Active Billboard Practitioner of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-practioner-muyiwa" name="vote-praction" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Mr Muyiwa J26</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-practioner-akin" name="vote-praction" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Mr Akin goldmender</label>
+                        </li>
+                 
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-practioner-speed" name="vote-praction" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Mr Dayo Speed</label>
+                        </li>
+                  
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-practioner-signal" name="vote-praction" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Mr Sunday Signal 7000</label>
+                        </li>
+                    </ol>
+                </form>
+              </div>
+              <div class="modal-body">
+                <h6>Digital Screen Billboard agency of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-digital-crystal" name="vote-digitalscreen" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">New crystal Comm</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-digital-media" name="vote-digitalscreen" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Plural media</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-digital-benevolence" name="vote-digitalscreen" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Benevolence</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-digital-abercarin" name="vote-digitalscreen" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Abercarin</label>
+                        </li>
+                    </ol>
+                </form>
+              </div>
+              <div class="modal-body">
+                <h5 class="modal-header text-center w-50"><img src="src/images/megaphone.png" alt="...">Broadcast</h5>
+                <h6>Advertiser's Choice Award(Radio)</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-choice-splash" name="vote-choiceaward" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Splash</label>
+                        </li>
+                         <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-choice-lagelu" name="vote-choiceaward" value="lagelu-fm" class="me-2">
+                            <label for="idris">Lagelu Fm</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-choice-adanimogo" name="vote-choiceaward" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Adanimogo Fm</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-choice-success" name="vote-choiceaward" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Success Fm</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-choice-lead" name="vote-choiceaward" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Lead Radio</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-choice-agidigbo" name="vote-choiceaward" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Agidigbo Fm</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-choice-32" name="vote-choiceaward" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">32fm</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-choice-blast" name="vote-choiceaward" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Blast</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-choice-fresh-fm" name="vote-choiceaward" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Fresh Fm</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h6>Advertiser's Choice Award(Blog)</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-choice-ibadanmedia" name="vote-choiceaward" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Ibadan Media</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-choice-ibadanlawa" name="vote-choiceaward" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Ibadan Lawa</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-choice-whatsupibadan" name="vote-choiceaward" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Whatsupibadan</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-choice-connectibadan" name="vote-choiceaward" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Connect Ibadan</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-choice-password" name="vote-choiceaward" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Password TV</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h6>Voice Over ads "Creative Award.</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-voice-adebayo" name="vote-voicedhoice" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Adebayo Faleke</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-voice-charles" name="vote-voicedhoice" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Charles Alade</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-voice-victor" name="vote-voicedhoice" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Victor omobabaonipako</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-voice-toyosi" name="vote-voicedhoice" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Toyosi Olosunde</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h5 class="modal-header w-75"><img src="src/images/megaphone.png" alt="...">ADVERTISER/CLIENT</h5>
+                <h6>Most Visible Real Estate Company of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visible-kemsan" name="vote-visiblehomes" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Kemsan Acres Global Ltd</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visible-landest" name="vote-visiblehomes" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Landnest</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visible-adron" name="vote-visiblehomes" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Adron homes</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visible-kunleade" name="vote-visiblehomes" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Kunleade homes</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visible-quantum" name="vote-visiblehomes" value="quantum-homes" class="me-2">
+                          <label for="faith">Quantum Homes</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h6>Most Visible Furniture&interior Company of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblefurniture-vava" name="vote-visibleinterior" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Vava Funiture</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblefurniture-ta" name="vote-visibleinterior" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">TA Posh Furniture&interior</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblefurniture-johnson" name="vote-visibleinterior" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Mr Johnson  Funiture</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visiblefurniture-lifetime" name="vote-visibleinterior" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Lifemate furniture</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h6>Most visible crypto brand of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblecrypto-celloux" name="vote-cryptovisible" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Celloux app</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblecrypto-ecurrency" name="vote-cryptovisible" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Ecurrency app</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblecrypto-space" name="vote-cryptovisible" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Space trade</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visiblecrypto-space" name="vote-cryptovisible" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Trade Avaitor</label>
+                      </li>
+                    </ol>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h6>Most visible phone&gadget Company of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblephone-top" name="vote-visiblegadget" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Top Success</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblephone-jlk" name="vote-visiblegadget" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Jlk empire Phones&Gadget </label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblephone-okim" name="vote-visiblegadget" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Okim Global</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visiblephone-solat" name="vote-visiblegadget" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Solat Telecom</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visiblephone-ishow" name="vote-visiblegadget" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">I Show Gadget</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visiblephone-samtob" name="vote-visiblegadget" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Samtob PC</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visiblephone-dream" name="vote-visiblegadget" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Dream works</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h6>Most visible construction development company of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visibleconstruction-dollar" name="vote-construction" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Dollar Construction</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visibleconstruction-kemsan" name="vote-construction" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Kemsan construction</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h6>Most visible event show of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visibleevent-deleomowoli" name="vote-visibleshow" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Music Rave with Dele Omowoli</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visibleevent-laffmattaz" name="vote-visibleshow" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Laffmattaz with Gbenga Adeyinka</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visibleevent-laffcourt" name="vote-visibleshow" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">LaffCourt With Baba Alariya</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visibleevent-remotecomedy" name="vote-visibleshow" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">I just got back Remote comedy</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h6>Most visible Tech brand of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="visibletech-rain" name="vote-visibletechbrand" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Rain Robotics</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="visibletech-edutech" name="vote-visibletechbrand" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Edutech</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="visibletech-cardify" name="vote-visibletechbrand" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Cardify</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="visibletech-aptech" name="vote-visibletechbrand" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Aptech</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h6>Most visible Fashion brand of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblefashion-marisgold" name="vote-fashionvisible" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Marisgold boutique</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblefashion-hattires" name="vote-fashionvisible" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Hattires</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblefashion-ayclothing" name="vote-fashionvisible" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Ay Clothing</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visiblefashion-dace" name="vote-fashionvisible" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">D'Ace fashion</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+            
+              <div class="modal-body">
+                <h6>Most visible Travel Agency of the year </h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visibletravel-ufitfly" name="vote-visibletravelagency" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Ufit fly</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visibletravel-coolgadget" name="vote-visibletravelagency" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Cool Global interlink</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visibletravel-elukas" name="vote-visibletravelagency" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Elukas travel</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visibletravel-fafkay" name="vote-visibletravelagency" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Fafkay travel</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+       
+              <div class="modal-body">
+                <h6>Most visible Cosmetic brand of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblecosmetics-kids" name="vote-visiblebrand" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Kids&More</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblecosmetics-candy" name="vote-visiblebrand" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Candy's Glizt</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblecosmetics-dprime" name="vote-visiblebrand" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Dprime</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visiblecosmetics-comzygold" name="vote-visiblebrand" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Comzygold</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h6>Most visible Hotel of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblehotel-jorgor" name="vote-hotelvisible" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Jogor Center</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblehotel-billionaire" name="vote-hotelvisible" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">The billionaire Hotel</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblehotel-citron" name="vote-hotelvisible" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Citron hotel</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visiblehotel-bon" name="vote-hotelvisible" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Bon Hotel</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visiblehotel-demanchy" name="vote-hotelvisible" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">De manchy Hotel</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h6>Most Visible Lounge/relaxation spot of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblelounge-gravano" name="vote-loungevisible" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Gravano lounge</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblelounge-tamberma" name="vote-loungevisible" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Tamberma lounge</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h6>Most Visible Resturant/Shopping place of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visibleresturant-foodco" name="vote-resturantvisible" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Foodco</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visibleresturant-fresh2go" name="vote-resturantvisible" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Fresh2go</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visibleresturant-Homeland" name="vote-resturantvisible" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Homeland</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visibleresturant-foods" name="vote-resturantvisible" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Ultima foods</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visibleresturant-finrel" name="vote-resturantvisible" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Finrel</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visibleresturant-banky" name="vote-resturantvisible" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Bankyloolas</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visibleresturant-sunrise" name="vote-resturantvisible" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Sunrise</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h6>Most Visible Brand Influencer of the year</h6>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <ol class="list-group list-group-flush">
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblecreator-deleomowoli" name="vote-creatorvisible" value="Idris Taiwo (Cardify)" class="me-2">
+                            <label for="idris">Dele Omowole</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblecreator-babatunmise" name="vote-creatorvisible" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                            <label for="gabriel">Babatunmise</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                            <input type="radio" id="vote-visiblecreator-kolawole" name="vote-creatorvisible" value="Faith (Kemsan Acres)" class="me-2">
+                            <label for="faith">Kolawole Ajeyemi</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visiblecreator-ayo" name="vote-creatorvisible" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Ayo olaiya</label>
+                        </li>
+                        <li class="list-group-item d-flex align-items-center">
+                          <input type="radio" id="vote-visiblecreator-kamo" name="vote-creatorvisible" value="Faith (Kemsan Acres)" class="me-2">
+                          <label for="faith">Kamo</label>
+                        </li>
+                    </ol>
+                </form>
+                
+              </div>
+                <div class="modal-body">
+                  
+                  <h6>Future Leader of Marketing Communication of the Year</h6>
+                  <p>Select your choice and vote now!</p>
+                  
+                  <!-- Voting options with radio buttons -->
+                  <form id="voteform">
+                      <ol class="list-group list-group-flush">
+                          <li class="list-group-item d-flex align-items-center">
+                              <input type="radio" id="vote-future-idris" name="vote-future" value="Idris Taiwo (Cardify)" class="me-2">
+                              <label for="idris">Idris Taiwo (Cardify)</label>
+                          </li>
+                          <li class="list-group-item d-flex align-items-center">
+                              <input type="radio" id="vote-future-gabriel" name="vote-future" value="Gabriel Ilabeshi (Capitalsage)" class="me-2">
+                              <label for="gabriel">Gabriel Ilabeshi (Capitalsage)</label>
+                          </li>
+                          <li class="list-group-item d-flex align-items-center">
+                              <input type="radio" id="vote-future-faith" name="vote-future" value="vote-fut-Faith (Kemsan Acres)" class="me-2">
+                              <label for="faith">Faith Oyebanji (Kemsan Acres)</label>
+                          </li>
+                      </ol>
+                  </form>
+                  
+                </div>
+                <div class="modal-body">
+                    <h6>Sales Personality of the year</h6>
+                  <p>Select your choice and vote now!</p>
+                  <form id="voteform">
+                      <ol class="list-group list-group-flush">
+                          <li class="list-group-item d-flex align-items-center">
+                              <input type="radio" id="sales-personality" name="sales-personal" value="sales-personals" class="me-2">
+                              <label for="eniola-habbeeb">Eniola Habbeeb(Bluesprings Home)</label>
+                          </li>
+                      </ol>
+                           <ol class="list-group list-group-flush">
+                          <li class="list-group-item d-flex align-items-center">
+                              <input type="radio" id="sales-personality" name="sales-personal" value="sales-personals" class="me-2">
+                              <label for="damilare-nuga">Damilare 
+                              Adenuga(Kemsan Construction</label>
+                          </li>
+                      </ol>
+                        <ol class="list-group list-group-flush">
+                          <li class="list-group-item d-flex align-items-center">
+                              <input type="radio" id="sales-personality" name="sales-personal" value="sales-personals" class="me-2">
+                              <label for="bisola-ayeni">Abisola Ayeni(Homelink Global)</label>
+                          </li>
+                      </ol>
+                    <ol class="list-group list-group-flush">
+                          <li class="list-group-item d-flex align-items-center">
+                              <input type="radio" id="sales-personality" name="sales-personal" value="sales-personals" class="me-2">
+                              <label for="bisola-ayeni">Abimbola Ojo (Design Brick)</label>
+                          </li>
+                      </ol>
+                  </form>
+                </div>
+          
+              <div class="modal-body">
+                <h5 class="modal-header w-75"><img src="src/images/megaphone.png" alt="...">AMC Hall of Fame (Outdoor)</h5>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <textarea class="form-control me-2 w-100" name="vote-amchall" placeholder="enter your text here">
+                        
+                    </textarea>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h5 class="modal-header"><img src="src/images/megaphone.png" alt="...">AMC Hall of Fame (Broadcast Traffic)</h5>
+                <p>Enter a Name</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                      <textarea class="form-control me-2 w-100" id="vote-broadcasttraffic" name="vote-traffic" placeholder="enter your text here">
+                          
+                      </textarea>
+                </form>
+                
+              </div>
+              <div class="modal-body">
+                <h5 class="modal-header w-75"><img src="src/images/megaphone.png" alt="...">Honorary awards (suggest)</h5>
+                <p>Select your choice and vote now!</p>
+                
+                <!-- Voting options with radio buttons -->
+                <form id="voteform">
+                    <textarea class="form-control me-2 w-100" id="vote-honor" name="vote-honoraryawards" placeholder="enter your text here">
+                       
+                    </textarea>
+                </form>
+                
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary" onclick="submitVote()">Submit Vote</button>
+              </div>
+          </div>
+      </div>
+    </div>

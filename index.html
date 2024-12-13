@@ -1,0 +1,1456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMC Award Night</title>
+    <link rel="icon" type="image/x-icon" href="src/images/favicon-96x96.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+     <!-- Add this script for Font Awesome icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body{
+            background-color: black;
+        }
+
+        /* rhombus */
+        /* .rhombusstars {
+            position: relative;
+            width: 95vw;
+            height: 100vh;
+            overflow: hidden;
+            
+        }
+
+        .rhombus-wrapper {
+            position: absolute;
+            animation: float 5s infinite ease-in-out alternate;
+            transform: rotate(45deg);
+            opacity: 0.9;
+            z-index: -1;
+            width: 60px; 
+            height: 60px;
+        }
+
+        .rhombus {
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+        }
+
+        @keyframes float {
+            from {
+                transform: translateY(0);
+            }
+            to {
+                transform: translateY(-20px);
+            }
+        } */
+
+        .rhombus-wrapper {
+            position: absolute;
+            animation: float 5s infinite ease-in-out alternate;
+            transform: rotate(45deg);
+            opacity: 0.5;
+            z-index: -1;
+            width: 60px;
+            height: 60px;
+        }
+
+        /* Styling for each SVG rhombus */
+        .rhombus {
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+        }
+
+        /* Float animation */
+        @keyframes float {
+            from {
+                transform: translateY(0) rotate(45deg);
+            }
+            to {
+                transform: translateY(-20px) rotate(45deg);
+            }
+        }
+
+        /* Ensures divs have relative positioning for absolute rhombus positioning */
+        div {
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* navbar */
+
+        .navbar {
+            background-color: #000;
+            top: 0;
+            z-index: 999;
+            position: sticky;
+            width: 100%;
+        }
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+
+        .navbar-nav .nav-link:hover {
+        color:  #D4AF37 !important;
+        }
+
+        .logoimg{
+            width: 60px;
+            height: 60px;
+        }
+
+ 
+
+        #navbarNav ul li{
+            font-family: "Philosopher";
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        .modal-content {
+        padding: 20px;
+        background-color: #333;
+        color: white;
+        }
+        
+        .modal-header, .modal-footer {
+            border: none;
+        }
+        
+        .modal-title {
+            font-family: "Philosopher";
+            font-weight: 700;
+        }
+        
+        /* Media Query for Smaller Screens */
+        @media (max-width: 768px) {
+            .navbar-nav .nav-link {
+                font-size: 16px;
+            }
+        }
+
+
+        .textHero {
+        z-index: 5; 
+        text-align: center;
+        top: 150%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2rem;
+        color: #fff;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        }
+
+        @media (max-width: 780px) {
+            .textHero{
+                top: 360%;
+                width: 100%;
+            }
+
+            .textHero p{
+                align-items: center;
+                width: 80vw;
+                text-align: justify;
+            
+            }
+        }
+
+      
+
+        .amcNight{
+            font-family: "Philosopher";
+            font-weight: 400;
+            font-size: 70.2px;
+            margin: 0 auto;
+            color: #D4AF37;
+
+        }
+
+        .amcNightP{
+            font-family: "Philosopher";
+            font-weight: 400;
+            font-size: 20px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .fa-youtube:hover{
+          color: #D4AF37 !important;
+        }
+
+        .fa-instagram:hover{
+          color: #D4AF37 !important;
+        }
+
+        .fa-twitter:hover{
+          color:#D4AF37 !important;
+        }
+
+        .fa-facebook:hover{
+          color: #D4AF37 !important;
+        }
+
+        .fa-linkedin:hover{
+          color: #D4AF37 !important;
+        }
+
+        .fa-location-arrow:hover{
+          color: #D4AF37 !important;
+        }
+
+        
+
+        .address{
+          margin: 0 auto;
+          text-align: center;
+          font-size: 20px;
+          font-family: "Philosopher";
+          color: #fff;
+          text-decoration: none;
+
+        }
+
+        .address :hover{
+          color: #D4AF37;
+        }
+
+        .address .container{
+            justify-content: center;
+        }
+
+        .address p{
+            margin: 0;
+            padding-left: 0.5rem;
+        }
+        @media (max-width: 768px) {
+         .address {
+            width: 100%; /* Adjust width on tablets and smaller devices */
+         
+        }
+
+        }
+
+        @media (max-width: 480px) {
+            .address {
+            width: 100%; /* Full width for mobile devices */
+            font-size: 0.9rem; /* Adjust font size for readability */
+ 
+            }
+        }
+
+   
+
+       
+
+        /* first page section */
+
+        .page-section {
+            padding: 4rem 0;
+            margin-top: 5rem;
+            z-index: 5;
+        }
+        .section-heading {
+            font-size: 2rem;
+            font-family: "Philosopher";
+            color: #000; 
+        }
+
+        .howitwrksA{
+          padding: 20px;
+          background-color: rgba(0, 0, 0, 0.7); /* Subtle background overlay */
+          border-radius: 10px;
+        }
+
+
+        .howitwrksA .subheading h2 {
+            color: #fff;
+            text-align: center;
+            font-family: "Philosopher";
+            font-weight: 400;
+            font-size: 30px;
+            text-align: left;
+
+        }
+
+      
+        .section-heading {
+            font-size: 2rem;
+            color: #000; 
+        }
+
+
+      
+
+        .steps-list{
+            padding-left: 0;
+        }
+
+
+
+        .steps-list p {
+            margin-bottom: 1.5rem;
+            margin-top: 1.5rem;
+            color: #fff;
+            font-size: 1.25rem;
+            margin: 0.5rem 0 0;
+            font-size: 20px;
+            width: 80%;
+            text-align: justify;
+            font-family: "Philosopher";
+            font-weight: 400;
+            line-height: 1.6;
+            width: 100%;
+            word-spacing: 0%;
+
+        }
+        
+        
+        .side-img-style {
+            max-width: 100%;
+            border-radius: 0.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            /* height: 150px; */
+            align-items: center;
+        }
+
+        /* Responsive Styling */
+        @media (max-width: 992px) {
+            .steps-list{
+              text-align: center;
+              align-items: center;
+            }
+            .section-heading {
+                font-size: 1.75rem;
+            }
+            .steps-list h3 {
+                font-size: 1.1rem;
+            }
+            .steps-list p {
+                font-size: 0.95rem;
+                wi
+            }
+        }
+        @media (max-width: 768px) {
+            .steps-list{
+              text-align: center;
+            }
+            .howitwrksA .subheading h2 {
+                text-align: center;
+                font-size: 1.5rem;
+            }
+            .steps-list h3 {
+                font-size: 1rem;
+            }
+        }
+        @media (max-width: 576px) {
+            .section-heading {
+                font-size: 1.5rem;
+            }
+            .howitwrksA .subheading h2 {
+                text-align: center;
+                font-size: 1.25rem;
+            }
+            .steps-list li {
+                margin-bottom: 1rem;
+            }
+            .side-img-style {
+                width: 100%;
+                margin-top: 2rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+        .howitwrks {
+            text-align: center;
+        }
+        .side-img-style {
+            width: 100%; /* Ensure the image takes full width on smaller screens */
+        }
+        }
+
+
+        .page-section h2{
+            font-size: 30px;
+            font-family: "Philosopher";
+            font-weight: 30px;
+            z-index: 5;
+        }
+
+
+        .page-section .container p{
+            font-size: 20px;
+            /* text-align: center; */
+            font-family: "Philosopher";
+        }
+
+        /* second page section */
+
+
+        .page-section2{
+            margin-top: 70px;
+            background: transparent;
+            position: relative;
+            z-index: 5;
+        }
+
+        .page-section2 h4{
+            font-family: "Philosopher";
+            font-size: 20px;
+            z-index: 5;
+        }
+
+        #services{
+            z-index: 5;
+        }
+
+
+
+        .group1{
+            z-index: 5;
+        }
+
+
+    /* carousel */
+
+    /* Center the carousel container */
+    .carousel-container {
+      display: flex;
+      justify-content: center;
+      max-width: 90%; /* Adjust carousel width */
+      margin: 120px auto;
+    }
+
+    /* Carousel title */
+    .section-heading {
+      color: white;
+      text-transform: uppercase;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    /* Styling for each carousel card */
+    .carousel-item .card {
+      max-width: 400px; /* Reduced card width */
+      margin: auto;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .carousel-item .col-md-4 {
+      flex: 0 0 33.333%; /* Ensures 3 cards per slide */
+    }
+
+    /* Card image and text alignment */
+    .carousel-item .d-flex {
+      align-items: center;
+    }
+
+    .carousel-item img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    .carousel-item .card-title {
+      font-weight: bold;
+    }
+
+    .titleSecondary {
+      font-size: 0.875rem;
+      color: rgba(255, 255, 255, 0.7);
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); /* Center vertically */
+      z-index: 10;
+      font-size: 2rem;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); /* Center vertically */
+      z-index: 10;
+      font-size: 2rem;
+    }
+
+    .carousel-control-prev {
+      left: -100px; /* Move prev button left outside the carousel */
+    }
+
+    .carousel-control-next {
+      right: -100px; /* Move next button right outside the carousel */
+    }
+
+ 
+  
+
+    /* Responsive styling */
+    @media (max-width: 768px) {
+      .carousel-item .col-md-4 {
+        flex: 0 0 100%; /* Full width cards on smaller screens */
+        max-width: 100%;
+      }
+
+      .carousel-container {
+        max-width: 100%; /* Carousel takes full width on smaller screens */
+      }
+
+      .carousel-control-prev, .carousel-control-next {
+        font-size: 1.5rem; /* Smaller icons on mobile */
+        left: -30px;
+        right: -30px;
+      }
+    }
+   
+
+
+
+
+        /* Contact */
+
+        .contact{
+            width: 100%;
+        }
+
+        #contact{
+            margin-top: 50px;
+        }
+
+        .firstContact{
+            margin-top: 70px;
+            width: 60%;
+        }
+
+        .secondContact{
+            width: 40%;
+            margin-top: 70px;
+        }
+
+        .btn p{
+          font-family: "Philosopher";    
+          font-size: 21px;
+          border-radius: 15px;
+          margin: auto;
+        }
+
+        .btn i:hover{
+          color: #D4AF37;
+        }
+
+        .btn p:hover{
+          color: #D4AF37;
+        }
+
+
+        .form-control{
+            border-radius: 10px;
+        }
+
+        .contact-container {
+        padding: 2rem;
+        border-radius: 0.5rem;
+        }
+
+
+        .contact-container h2 p{
+            font-family: "Philosopher";
+        }
+
+
+        .contactEmail, .contactAddress, .contactPhone{
+            font-family: "Philosopher";
+        }
+
+        .text-info{
+            font-family: "Philosopher";
+        }
+
+        .endstate{
+            text-align: center;
+            font-family: "Philosopher";
+            font-size: 33.2px;
+            font-weight: 400;
+            width: 100%;
+            color: #fff;
+        }
+
+
+      
+        .contact-title {
+        font-weight: 500;
+        margin-bottom: 1rem;
+        font-family: "Philosopher";
+        }
+
+
+        .contact-block-title {
+        font-size: 20px;
+        }
+
+
+        .required-icon {
+        color: #B19A99;
+        margin-right: 0.5rem;
+        }
+
+
+        /* For Mobile Devices (less than 576px) */
+      @media (max-width: 575.98px) {
+      .contact-container {
+          padding: 20px;
+      }
+
+      .firstContact, .secondContact {
+          padding: 0;
+          width: 100%;
+      }
+
+      .secondContact{
+        width: 90%;
+        margin: 0 auto;
+      }
+
+      .contact-block-title {
+          font-size: 1rem;
+      }
+
+      .contactAddress .contactEmail .contactPhone{
+        width: 100%
+      }
+
+     
+
+      .form-group {
+          margin: 1rem 0;
+      }
+
+      .form-control {
+          padding: 0.8rem;
+      }
+
+      .btn {
+          width: 100%;
+          font-size: 1rem;
+          padding: 1rem;
+      }
+
+      .endstate {
+          font-size: 1rem;
+      }
+      }
+
+    /* For Tablet Devices (576px to 768px) */
+     @media (min-width: 576px) and (max-width: 767.98px) {
+      .contact-container {
+          padding: 20px;
+      }
+
+      .firstContact, .secondContact {
+          padding: 0;
+          width: 100%;
+      }
+
+      .contact-block-title {
+          font-size: 1.2rem;
+      }
+
+      .form-group {
+          margin: 1.5rem 0;
+      }
+
+      .form-control {
+          padding: 1rem;
+      }
+
+      .btn {
+          width: 100%;
+          font-size: 1.1rem;
+          padding: 1rem;
+      }
+
+      
+
+      .contactAddress .contactEmail .contactPhone{
+        width: 100%;
+      }
+
+      .endstate{
+        width: 100%;
+      }
+    }
+
+    /* For Desktop and Larger Screens (greater than 768px) */
+    @media (min-width: 768px) {
+      .contact-container {
+          padding: 40px;
+      }
+
+      .firstContact, .secondContact {
+          padding: 0;
+          width: 50%;
+      }
+
+      .contactAddress .contactEmail .contactPhone{
+        width: 100%;
+      }
+
+      .endstate{
+        width: 100%;
+      }
+
+      .contact-block-title {
+          font-size: 1.5rem;
+      }
+
+      .form-group {
+          margin: 1.5rem 0;
+      }
+
+      .form-control {
+          padding: 1rem;
+      }
+
+      .btn {
+          width: auto;
+          font-size: 1.2rem;
+          padding: 1rem 2rem;
+      }
+
+      .endstate {
+          font-size: 1.3rem;
+      }
+  }
+
+  
+  .corner-image {
+      position: absolute;
+      width: 50px; /* Adjust width as needed */
+      height: auto;
+      transform: rotate(-45deg); /* Rotate the image by 45 degrees */
+      z-index: 1000; /* Ensures it appears above other elements */
+  }
+
+  .top-right {
+      top: 0;
+      right: 0;
+  }
+
+  /* Positioning for the bottom-left image */
+  .bottom-left {
+      bottom: 0;
+      left: 0;
+  }
+
+
+
+  .voteScroll {
+    max-height: 1000px; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+
+  .voteScroll::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .voteScroll::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .dropdown-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+  </style>
+  </head>
+  <body  id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top"><img src="src/images/WhatsApp_Image_2024-11-01_at_22.21.25-removebg-preview.png" alt="..." class="logoimg"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#voteModal">Vote</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sponsors">Sponsors</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#donateModal">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- vote modal -->
+
+    <div class="modal fade" id="voteModal" tabindex="-1" aria-labelledby="voteModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title w-100 text-center" id="voteModalLabel">Vote Your Favorites</h4>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  
+                  
+              </div>
+              <div class="container-fluid">
+                  <p class="text-center">THE VOTES ARE COLSED FOR NOW!😁</p>
+                  <p>Thanks For All Your Votes Hope To See You On The 14th</p>
+              </div>
+            </div>
+        </div>    
+              
+    </div>
+      
+    <!-- Donate Modal -->
+    <div class="modal fade" id="donateModal" tabindex="-1" aria-labelledby="donateModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="donateModalLabel">Donate to Support</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                      <p>Name: Ezra Okebisi</p>
+                      <p>Bank: Opay</p>
+                      <p>Account Number: 9043790144</p>
+                      <p>Your donation will help support our cause. Please choose your donation amount below.</p>
+                      <!-- Add donation options here -->
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Donate Now</button>
+                  </div>
+              </div>
+          </div>
+    </div>
+
+
+    <div class="container d-flex flex-column text-center text-white">
+      <!-- Title and Description -->
+      <div class="container mt-5">
+          <h1 class="display-4 amcNight">AMC Award Night 2024</h1>
+          <p class="col-md-8 mx-auto amcNightP"> Welcome to the AMC Awards 2024
+
+            Celebrating Noble Advertising Professionals & Innovative Brands.
+            
+                A Night of Glamour, Recognition, and Excellence
+            
+            Join us as we honor outstanding professionals and brands that shape our industry through exceptional advertising."</p>
+      </div>
+      
+      <!-- Social Icons -->
+      <div class="d-flex justify-content-center mt-4 socialIcons">
+          <a href="https://www.youtube.com" target="_blank" class="mx-2"><i class="fab fa-youtube fa-2x" style="color: #fff;"></i></a>
+          <a href="https://www.instagram.com" target="_blank" class="mx-2"><i class="fab fa-instagram fa-2x" style="color: #fff;"></i></a>
+          <a href="https://www.facebook.com" target="_blank" class="mx-2"><i class="fab fa-facebook fa-2x" style="color: #fff;"></i></a>
+          <a href="https://www.twitter.com" target="_blank" class="mx-2"><i class="fab fa-twitter fa-2x" style="color: #fff;"></i></a>
+          <a href="https://www.linkedin.com" target="_blank" class="mx-2"><i class="fab fa-linkedin fa-2x" style="color: #fff;"></i></a>
+      </div>
+  
+      <!-- Address and Contact Info -->
+      <div class="col-md-4 mx-auto address mt-4 text-center">
+        <!-- Address with Google Maps link -->
+        <div class="d-flex align-items-center justify-content-center">
+            <a href="https://www.google.com/maps/place/Mauve21+Hotel+and+Events+Center/@7.3594216,3.8682981,17z/data=!4m9!3m8!1s0x10398db489030835:0x866512550f119ad2!5m2!4m1!1i2!8m2!3d7.3594163!4d3.870873!16s%2Fg%2F11t72k5c7g?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" 
+               target="_blank" 
+               class="text-white d-flex align-items-center text-decoration-none">
+                <i class="fa fa-location-arrow me-2" style="color: white;"></i>
+                <p class="mb-0">Mauve 21 Event Center</p>
+            </a>
+        </div>
+        <!-- Phone number -->
+        <div class="d-flex align-items-center justify-content-center mt-2">
+            <i class="fa fa-phone me-2" style="color: white;"></i>
+            <p class="mb-0 text-decoration-none text-white">+234-904-379-0144</p>
+        </div>
+      </div>
+      
+    <!-- Top-right rotated image -->
+    <img src="src/images/AMC AWARD.png" alt="Top Right Image" class="corner-image top-right">
+
+    <!-- Bottom-left rotated image -->
+    <img src="src/images/AMC AWARD.png" alt="Bottom Left Image" class="corner-image bottom-left">
+    </div>
+  
+
+    <button class="btn bg-dark text-white text-decoration-none d-flex align-items-center justify-content-center mx-auto" 
+      style="width: 120px; margin-top: 20px; border-radius: 5px; transition: background-color 0.3s ease;"
+      onclick="window.location.href='#';" 
+      title="Vote for your favorite" data-bs-toggle="modal" data-bs-target="#voteModal">
+      <i class="fas fa-vote-yea me-2"></i><p>Vote</p>
+    </button>
+
+    <div class="page-section" id="portfolio">
+      <div class="container">
+          <div class="row justify-content-center">
+              <!-- About Section Text -->
+              <div class="col-lg-8 howitwrks mb-5">
+                  <div class="howitwrksA">
+                      <div class="subheading mb-4 text-center">
+                          <h2>About AMC Award Night</h2>
+                      </div>
+                      <div class="text-center steps-list text-white">
+                          <p>Experience the glamour of the AMC Award Night, where every moment is crafted to celebrate brilliance. 
+                              This prestigious event showcases remarkable talents and contributions, reflecting the spirit of creativity and dedication. 
+                              Join us for an unforgettable evening filled with inspiring stories, exceptional performances, and the joy of recognition. 
+                              Welcome to AMC, where we honor the stars of today and tomorrow.
+                          </p>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Image Section -->
+              <div class="col-lg-4 col-md-6 d-flex align-items-center mt-5 mb-5">
+                  <img src="src/images/hallimage.jpeg" 
+                      alt="Elegant event setting representing the AMC Award Night" 
+                      class="img-fluid side-img-style rounded" style="height:300px; width: 400px;" />
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+  
+
+    <!-- <div class="page-section2" id="services">
+      <div class="container">
+          <div class="row text-center group1">
+              <div class="text-center">
+                  <h2 class="section-heading text-uppercase text-white" id="sponsors">Meet Our Sponsors</h2>
+              </div>
+              <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <img src="images/comingsoon.png" alt="Hero image for how it works section" class="img-fluid side-img-style" />
+                  </span>
+                  <h4 class="my-5 text-white">E-Commerce</h4>
+                  
+              </div>
+              <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <img src="images/comingsoon.png" alt="Hero image for how it works section" class="img-fluid side-img-style" />
+                  </span>
+                  <h4 class="my-5 text-white">Email Services</h4>
+                
+              </div>
+              <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <img src="images/comingsoon.png" alt="Hero image for how it works section" class="img-fluid side-img-style" />
+                  </span>
+                  <h4 class="my-5 text-white">Social Media</h4>
+                  
+                      
+              </div>
+          </div>
+          <div class="row text-center group2">
+              <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <img src="images/comingsoon.png" alt="Hero image for how it works section" class="img-fluid side-img-style" />
+                  </span>
+                  <h4 class="my-5 text-white">VPN & PROXY</h4>
+                
+              </div>
+              <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <img src="images/comingsoon.png" alt="Hero image for how it works section" class="img-fluid side-img-style" />
+                  </span>
+                  <h4 class="my-5 text-white">Account & Subscriptions</h4>
+                
+              </div>
+              <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                      <img src="images/comingsoon.png" alt="Hero image for how it works section" class="img-fluid side-img-style" />
+                  </span>
+                  <h4 class="my-5 text-white">Tutorials & Community</h4>
+                
+              </div>
+          </div>
+      </div>
+      
+   
+    <img src="images/AMC AWARD.png" alt="Top Right Image" class="corner-image top-right">
+
+   
+    <img src="images/AMC AWARD.png" alt="Bottom Left Image" class="corner-image bottom-left">
+    </div> -->
+
+    <div class="page-section2" id="services">
+      <div class="container">
+          <div class="row text-center group1">
+              <div class="text-center">
+                  <h2 class="section-heading text-uppercase text-white" id="sponsors">Meet Our Sponsors</h2>
+              </div>
+              <div class="col-md-4">
+                  <img src="src/images/amc-removebg-preview.png" alt="E-Commerce Sponsor" class="img-fluid side-img-style" />
+                  <h4 class="my-5 text-white">Put your Brand HereðŸ¤—</h4>
+              </div>
+              <div class="col-md-4">
+                  <img src="src/images/amc-removebg-preview.png" alt="Email Services Sponsor" class="img-fluid side-img-style" />
+                  <h4 class="my-5 text-white">Put your Brand HereðŸ¤—</h4>
+              </div>
+              <div class="col-md-4">
+                  <img src="src/images/amc-removebg-preview.png" alt="Social Media Sponsor" class="img-fluid side-img-style" />
+                  <h4 class="my-5 text-white">Put your Brand HereðŸ¤—</h4>
+              </div>
+          </div>
+          <div class="row text-center group2">
+              <div class="col-md-4">
+                  <img src="src/images/amc-removebg-preview.png" alt="VPN & Proxy Sponsor" class="img-fluid side-img-style" />
+                  <h4 class="my-5 text-white">Put your Brand HereðŸ¤—</h4>
+              </div>
+              <div class="col-md-4">
+                  <img src="src/images/amc-removebg-preview.png" alt="Account & Subscriptions Sponsor" class="img-fluid side-img-style" />
+                  <h4 class="my-5 text-white">Put your Brand HereðŸ¤—</h4>
+              </div>
+              <div class="col-md-4">
+                  <img src="src/images/amc-removebg-preview.png" alt="Tutorials & Community Sponsor" class="img-fluid side-img-style" />
+                  <h4 class="my-5 text-white">Put your Brand HereðŸ¤—</h4>
+              </div>
+          </div>
+      </div>
+  
+      <!-- Top-right rotated image -->
+      <img src="src/images/AMC AWARD.png" alt="Top Right Image" class="corner-image top-right">
+  
+      <!-- Bottom-left rotated image -->
+      <img src="src/images/AMC AWARD.png" alt="Bottom Left Image" class="corner-image bottom-left">
+    </div>
+  
+    
+    
+    <div class="carousel-container">
+      <div id="carouselExampleControls" class="carousel slide bg-body-tertiary py-3" data-bs-ride="carousel">
+        <div class="text-center">
+          <h2 class="section-heading">Our Team</h2>
+        </div>
+        <div class="carousel-inner">
+          <!-- First slide with 3 cards (Horizontal layout) -->
+          <div class="carousel-item active">
+            <div class="row selection-wrapper">
+              <div class="col-md-4 mb-2 card-body-2">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-text">
+                      <i class="bi bi-quote" style="font-size: 2rem; color: rgb(215, 215, 0)"></i>
+                      AMC celebrating Professionalism in the Advertising Industry and the pinnacle of advertising achievement
+                    </p>
+                    <div class="d-flex align-items-center pt-4">
+                      <img src="src/images/Ezra.png" alt="">
+                      <div>
+                        <h5 class="card-title fw-bold">Asiwaju Ezra</h5>
+                        <span class="text-white titleSecondary">Executive Creative Director</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Repeat for other cards -->
+              <div class="col-md-4 mb-2">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-text">
+                      <i class="bi bi-quote" style="font-size: 2rem; color: rgb(215, 215, 0)"></i>
+                      AMC is an exemplary award for nobility in the Advertising AMC is an exemplary award for nobility in the Advertising Community and excellence.
+                    </p>
+                    <div class="d-flex align-items-center pt-4">
+                      <img src="src/images/chinko.png" alt="">
+                      <div>
+                        <h5 class="card-title fw-bold">Adedeji Oluwadamilare Omolaja</h5>
+                        <span class="text-white titleSecondary">Team Lead</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-2">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-text">
+                      <i class="bi bi-quote" style="font-size: 2rem; color: rgb(215, 215, 0)"></i>
+                      AMC is birthed to celebrate advertisers and their incredible contributions to the advertising industry.
+                    </p>
+                    <div class="d-flex align-items-center pt-4">
+                      <img src="src/images/anuoluwapo.png" alt="">
+                      <div>
+                        <h5 class="card-title fw-bold">Aanuoluwapo Salau</h5>
+                        <span class="text-white titleSecondary">Team Member</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Second slide with 3 cards (Horizontal layout) -->
+          <div class="carousel-item">
+            <div class="row selection-wrapper">
+              <div class="col-md-4 mb-2">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-text">
+                      <i class="bi bi-quote" style="font-size: 2rem; color: rgb(215, 215, 0)"></i>
+                      Celebrating Creativity, Recognizing Greatness, and Honoring the Visionaries Who Shape the Future.
+                    </p>
+                    <div class="d-flex align-items-center pt-4">
+                      <img src="src/images/babatunde.png" alt="">
+                      <div>
+                        <h5 class="card-title fw-bold">Adereti Babatunde Michael</h5>
+                        <span class="text-white titleSecondary">Graphics Designer</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-2">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-text">
+                      <i class="bi bi-quote" style="font-size: 2rem; color: rgb(215, 215, 0)"></i>
+                      Honoring the best in Advertising, Celebrating Excellence, and Recognizing Outstanding Contributions to the Industry.
+                    </p>
+                    <div class="d-flex align-items-center pt-4">
+                      <img src="src/images/happines.png" alt="">
+                      <div>
+                        <h5 class="card-title fw-bold">Omolowo Happiness Adeshewa</h5>
+                        <span class="text-white titleSecondary">Team Memeber</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-2">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-text">
+                      <i class="bi bi-quote" style="font-size: 2rem; color: rgb(215, 215, 0)"></i>
+                    Advertising's biggest Night, where creativity and innovation are celebrated with the finest awards.
+                    </p>
+                    <div class="d-flex align-items-center pt-4">
+                      <img src="src/images/isreal.png" alt="">
+                      <div>
+                        <h5 class="card-title fw-bold">Moyinoluwa Israel</h5>
+                        <span class="text-white titleSecondary">Team Member</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <!-- Carousel controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+  
+    
+  
+    <div class="container contact-container" id="contact">
+      <div class="text-center">
+          <h2 class="section-heading text-uppercase">Contact Us</h2>
+      </div>
+      <div class="row col-md-12 text-center contact">
+          <!-- Contact Information -->
+          <div class="col-md-6 firstContact">
+              <div class="container">
+                  <h2 class="contact-block-title text-white contactEmail">Email: 
+                      <a href="mailto:amcindustryawards@gmail.com" class="text-info text-white text-decoration-none">
+                          amcindustryawards@gmail.com
+                      </a>
+                  </h2>
+              </div>
+              <div class="container">
+                  <h2 class="contact-block-title text-white contactPhone">Phone: 
+                      <a href="tel:+234-904-379-0144" class="text-info text-decoration-none text-white">
+                          +234-904-379-0144
+                      </a>
+                  </h2>
+              </div>
+              <div class="container">
+                  <h2 class="contact-block-title text-white contactAddress">Event Location: 
+                    <a href="tel:+234-904-379-0144" class="text-info text-decoration-none text-white">
+                      Mauve 21 event center
+                    </a>
+                    <p>Date: 14th December, 2024</p>
+                    <p>Time: 3:00pm prompt</p>
+                  </h2>
+              </div>
+              <hr>
+              <p class="text-center endstate">We welcome your questions and feedback regarding the AMC Award Night.</p>
+          </div>
+  
+          <!-- Contact Form -->
+          <!-- <div class="d-flex  min-vh-100"> -->
+            <div class="col-md-6 justify-content-center align-items-center secondContact">
+                <form id="contactForm">
+                    <div class="form-group m-2">
+                        <input type="text" class="form-control" placeholder="Name" name="name" id="name" aria-label="Name input" required>
+                    </div>
+                    <div class="form-group m-2">
+                        <input type="email" class="form-control" placeholder="Email" name="email" id="email" aria-label="Email input" required>
+                    </div>
+                    <div class="form-group m-2">
+                        <textarea class="form-control" rows="8" placeholder="Type your message hereâ€¦" id="message" aria-label="Message input" name="message" required></textarea>
+                    </div>
+                    <!-- Send button for form submission -->
+                    <div class="text-center">
+                      <button type="submit" class="btn bg-dark text-white" style="width: 100px; margin-top: 20px;">
+                          <p>Send</p>
+                      </button>
+                    </div>
+                </form>
+            </div>
+          <!-- </div> -->
+      </div>
+
+    <img src="src/images/AMC AWARD.png" alt="Top Right Image" class="corner-image top-right">
+
+    <!-- Bottom-left rotated image -->
+    <img src="src/images/AMC AWARD.png" alt="Bottom Left Image" class="corner-image bottom-left">
+    </div>
+  
+  
+  
+    
+    
+      
+
+    
+    
+
+    <script>
+      // Function to create a single rhombus element
+      function createRhombus() {
+          const rhombusWrapper = document.createElement('div');
+          rhombusWrapper.classList.add('rhombus-wrapper');
+          rhombusWrapper.style.top = Math.random() * 100 + '%';
+          rhombusWrapper.style.left = Math.random() * 100 + '%';
+
+          rhombusWrapper.innerHTML = `
+              <svg xmlns="http://www.w3.org/2000/svg" class="rhombus" viewBox="0 0 122 122">
+                  <path fill="gold" d="M228.333,295h-.2a68.3,68.3,0,0,0-1.742-12.121,67.128,67.128,0,0,0-3.764-11.288,66.4,66.4,0,0,0-5.583-10.242,65.432,65.432,0,0,0-7.2-8.983,63.97,63.97,0,0,0-8.608-7.511,62.2,62.2,0,0,0-9.814-5.826A60.312,60.312,0,0,0,169,233.283v-.2a60.308,60.308,0,0,0,22.089-5.585,62.136,62.136,0,0,0,9.7-5.658,63.871,63.871,0,0,0,8.54-7.3,65.338,65.338,0,0,0,7.189-8.735,66.328,66.328,0,0,0,5.643-9.97,67.051,67.051,0,0,0,3.9-11A68.107,68.107,0,0,0,228.031,173h.408a68.067,68.067,0,0,0,2.082,12.258,66.994,66.994,0,0,0,4.155,11.358,66.242,66.242,0,0,0,6.011,10.231,65.17,65.17,0,0,0,7.65,8.878,63.575,63.575,0,0,0,9.073,7.3,61.787,61.787,0,0,0,10.279,5.493A60.314,60.314,0,0,0,291,233.181h-.012a60.293,60.293,0,0,0-23.646,4.812,61.844,61.844,0,0,0-10.4,5.66,63.676,63.676,0,0,0-9.144,7.513,65.267,65.267,0,0,0-7.66,9.128,66.315,66.315,0,0,0-5.949,10.506,67.081,67.081,0,0,0-4.011,11.647A68.268,68.268,0,0,0,228.333,295Z" transform="translate(-169 -173)"/>
+              </svg>
+          `;
+
+          return rhombusWrapper;
+      }
+
+      // Apply rhombuses to every div in the document
+      document.addEventListener('DOMContentLoaded', () => {
+          const divs = document.querySelectorAll('div');
+          const rhombusCount = 3; // Adjust number of rhombuses as needed
+
+          divs.forEach(div => {
+              for (let i = 0; i < rhombusCount; i++) {
+                  const rhombus = createRhombus();
+                  div.appendChild(rhombus);
+              }
+          });
+      });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      var myCarousel = document.querySelector('#carouselExampleControls');
+      var carousel = new bootstrap.Carousel(myCarousel, {
+        interval: 5000, // Slide every 5 seconds
+        ride: 'carousel'
+      });
+    </script>
+    <!-- Firebase SDKs -->
+<script>
+
+      // Listen for form submission in the modal
+      function submitVote() {
+    // Create an object to store votes
+    const votes = {};
+
+    // Collecting values for each category
+    const categories = [
+        "vote-future", // Future Leader of Advertising
+        "vote-influent", // Most Influential Person/Woman
+        "vote-advert", // Educator of the Year
+        "vote-public", // PR Agency of the Year
+        "vote-rise", // Rising Star (OOH)
+        "vote-buyer", // Media Buyer of the Year
+        "vote-printer",
+        "vote-copy",
+        "vote-billboard",
+        "vote-oohstru",
+        "vote-unique",
+        "vote-praction",
+        "vote-digitalscreen",
+        "vote-choiceaward",
+        "vote-voicedhoice",
+        "vote-visiblehomes",
+        "vote-visibleinterior",
+        "vote-cryptovisible",
+        "vote-visiblegadget",
+        "vote-construction",
+        "vote-visibleshow",
+        "vote-visibletechbrand",
+        "vote-fashionvisible",
+        "vote-visibletravelagency",
+        "vote-visiblebrand",
+        "vote-hotelvisible",
+        "vote-loungevisible",
+        "vote-resturantvisible",
+        "vote-creatorvisible",
+        "vote-amchall",
+        "vote-traffic",
+        "vote-honoraryawards",
+        "sales-personal",
+        "vote-resourceful"// Print Press for OOH of the Year
+    ];
+
+    categories.forEach(category => {
+        // Get selected radio button in each category
+        const selected = document.querySelector(`input[name="${category}"]:checked`);
+        const textarea = document.querySelector(`textarea[name="${category}"]`)
+        if (selected) {
+            votes[category] = selected.value;
+        } else if (textarea && textarea.value.trim()) {
+          votes[category] = textarea.value.trim();
+        } else {
+            votes[category] = "No selection"; // If no selection was made
+        }
+    });
+
+    console.log("Submitted Votes:", votes);
+    alert("Thank you for voting!âœŒ")
+
+    const modal = document.getElementById("voteModal"); // Update with your modal's actual ID
+    if (modal) {
+        modal.style.display = 'none';
+        // modal.classList.remove("show"); // or modal.style.display = 'none';
+    }
+
+    // Display selected votes (for demo purposes - replace with actual submission code if needed)
+    // console.log("Submitted Votes:", votes);
+    // alert("Thank you for voting! Check the console to see your selections.");
+    
+        fetch("submit_votes.php", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(votes)
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.status === 'success') {
+                console.log("Vote submitted successfully:", data);
+                alert("Thank you for voting!");
+            } else {
+                console.error("Error submitting vote:", data.message);
+                alert("Error submitting vote. Please try again.");
+            }
+        })
+        .catch(error => {
+            console.error("Error submitting vote:", error);
+            alert("Error submitting vote. Please try again.");
+        });
+
+    
+  
+   
+
+    
+  }
+</script>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Get the form element
+    const contactForm = document.getElementById('contactForm');
+
+    // Add a submit event listener to the form
+    contactForm.addEventListener('submit', function (event) {
+        event.preventDefault(); // Prevent default form submission behavior
+
+        // Initialize FormData
+        const formData = new FormData(contactForm);
+
+        // Send data using fetch
+        fetch('save_contact.php', {
+            method: 'POST',
+            body: formData,
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                if (data.status === 'success') {
+                    alert('Thank you for contacting us!');
+                    contactForm.reset(); // Optionally reset the form
+                } else {
+                    alert('Error: ' + data.message);
+                }
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+                alert('An error occurred. Please try again.');
+            });
+    });
+});
+
+
+
+
+
+</script>
+
+
+  </body>
+</html>
